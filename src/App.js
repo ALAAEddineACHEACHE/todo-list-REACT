@@ -16,8 +16,6 @@ export default class App extends Component {
    
     this.setState({
       tache:event.target.value
-
-      
     })
    
   }
@@ -79,8 +77,6 @@ export default class App extends Component {
       taches:[]
     })
   }
-
-  
   render() {
     
     return (
@@ -100,13 +96,8 @@ export default class App extends Component {
         />
         </div>
         </div>
-    </div>
-   
-  
-  
-      
+    </div>    
         )
     
   }
 }
-
